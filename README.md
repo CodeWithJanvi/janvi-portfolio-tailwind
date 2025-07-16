@@ -51,7 +51,8 @@ A responsive and modern site built with **HTML**, **Tailwind CSS**, and a sprink
 ---
 
 
-🙋‍♀️ About Me
+## 🙋‍♀️ About Me
+
 I'm Janvi Lumbhani, a passionate and self-driven junior web developer from India with a creative mind and technical skills. I specialize in:
 
 HTML, CSS, JavaScript, PHP, MySQL
@@ -65,7 +66,8 @@ Building clean and efficient frontends
 
 ---
 
-📬 Contact Me
+## 📬 Contact Me
+
 ✉️ Email: lumbhanijanvi59@gmail.com
 
 🔗 LinkedIn: Janvi Lumbhani
