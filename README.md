@@ -7,7 +7,8 @@ A responsive and modern site built with **HTML**, **Tailwind CSS**, and a sprink
 
 ## 🔗 Live Demo
 
-🌐 **Live Site:** [https://portfoliowebjanu.netlify.app](https://kaleidoscopic-dusk-840da7.netlify.app/)  
+🌐 **Live Site:** [https://portfoliowebjanu.netlify.app](https://portfoliowebjanu.netlify.app)  
+📄 **Resume Download:** [resume.pdf](https://portfoliowebjanu.netlify.app/resume.pdf)
 
 ---
 
@@ -16,8 +17,8 @@ A responsive and modern site built with **HTML**, **Tailwind CSS**, and a sprink
 
 📦 Portfolio Website/
 ├── 📄 index.html → Main landing page
-├── 📄 resume.html → Resume page (optional if PDF used)
-├── 📄 resume.pdf → Downloadable resume (used in site)
+├── 📄 resume.html → Resume page (optional)
+├── 📄 resume.pdf → Downloadable resume used in the site
 ├── 📁 image/ → All project/profile images
 │ └── mypic.jpg
 └── 📄 README.md → This file
@@ -29,69 +30,47 @@ A responsive and modern site built with **HTML**, **Tailwind CSS**, and a sprink
 
 - 💻 Clean, professional UI with Tailwind CSS
 - 📱 Fully responsive (mobile-first)
-- 📄 One-click Resume download (`resume.pdf`)
-- 🧠 Skills bars with animated progress
+- 📄 One-click resume download (`resume.pdf`)
+- 🧠 Skills section with animated progress bars
 - 🛠️ Real project links hosted on Netlify
 - 🔗 Social links: GitHub, LinkedIn, Email
-- 🎨 Elegant layout with gradient themes & cards
+- 🎨 Elegant layout with gradients, shadows, and cards
 
 ---
 
 ## 🔧 Tech Stack
 
-| Frontend    | Tools & Libraries            |
-|-------------|------------------------------|
-| HTML5       | Markup structure             |
-| Tailwind CSS| Utility-first styling        |
-| FontAwesome | Icons                        |
-| Google Fonts| Custom typography            |
+| Technology    | Purpose                        |
+|---------------|--------------------------------|
+| HTML5         | Markup structure               |
+| Tailwind CSS  | Utility-first CSS framework    |
+| FontAwesome   | Icons                          |
+| Google Fonts  | Typography styling             |
+| JavaScript    | Interactivity (basic)          |
 
 ---
 
-## 📌 How to Use Locally
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/portfolio-website.git
-
-# Open in browser
-cd portfolio-website
-open index.html
-
----
 
 🙋‍♀️ About Me
-
-I’m Janvi Lumbhani, a passionate junior web developer from India with experience in:
+I'm Janvi Lumbhani, a passionate and self-driven junior web developer from India with a creative mind and technical skills. I specialize in:
 
 HTML, CSS, JavaScript, PHP, MySQL
 
-UI/UX design
+UI/UX design and responsive layouts
 
-Responsive web development
+Git and GitHub version control
 
-Git version control
+Building clean and efficient frontends
+
 
 ---
 
-control
-
-📬 Contact
+📬 Contact Me
 ✉️ Email: lumbhanijanvi59@gmail.com
 
 🔗 LinkedIn: Janvi Lumbhani
 
 💻 GitHub: CodeWithJanvi
-
-
----
-
-📄 License
-This project is open source and free to use for educational purposes.
-Feel free to fork and build your own awesome portfolio! ✨
-
-
-
 
 
 
