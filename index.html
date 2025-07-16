@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+ 
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center px-4 py-3">
+      <div class="text-left">
+        <h1 class="text-2xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text flex items-center gap-2">
+        <i class="fas fa-laptop-code text-purple-500"></i> Janvi's Portfolio
+        </h1>
+        <p class="text-xs text-gray-500 mt-1">Web Developer | UI/UX Enthusiast | Code Lover</p>
+        </div>
+
+      <nav class="space-x-4 text-sm font-semibold">
+        <a href="#home" class="hover:text-blue-500">Home</a>
+        <a href="#about" class="hover:text-blue-500">About</a>
+        <a href="#skills" class="hover:text-blue-500">Skills</a>
+        <a href="#projects" class="hover:text-blue-500">Projects</a>
+        <a href="#contact" class="hover:text-blue-500">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="flex flex-col items-center justify-center text-center min-h-screen bg-gradient-to-b from-blue-50 to-white">
+    <div class="relative w-44 h-44 mx-auto mb-6">
+  <div class="absolute inset-0 rounded-full bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 p-1 animate-pulse">
+    <img src="image/mypic.jpg" alt="Girl Avatar" class="w-full h-full rounded-full object-cover border-4 border-white shadow-lg">
+  </div>
+</div>
+
+    <h2 class="text-3xl md:text-4xl font-bold">Hi, I'm Janvi Lumbhani</h2>
+    <p class="text-lg text-blue-600 font-medium mt-2">Junior Web Developer</p>
+    <p class="text-sm italic mt-1">"Code like a girl. Debug like a queen."</p>
+    <a href="resume.pdf" download class="mt-4 inline-block px-6 py-2 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition">Download Resume</a>
+  </section>
+<!-- About Section -->
+<section id="about" class="py-20 px-6 bg-gray-100">
+  <div class="container mx-auto max-w-6xl grid md:grid-cols-2 gap-12 items-center">
+    
+    <div class="flex justify-center">
+  <div class="w-64 h-64 relative rounded-3xl overflow-hidden shadow-xl backdrop-blur bg-white/20 border border-white/30">
+    <img src="image/mypic.jpg" alt="Janvi" class="w-full h-full object-cover">
+    <div class="absolute inset-0 bg-gradient-to-br from-purple-300/30 to-pink-300/20 rounded-3xl"></div>
+  </div>
+</div>
+
+
+    <!-- Right: About Content -->
+    <div>
+      <h3 class="text-3xl font-bold mb-4 text-gray-800">About Me</h3>
+      <p class="text-gray-700 leading-relaxed text-lg mb-4">
+        Hello! I'm <strong class="text-purple-600">Janvi Soni</strong>, a self-motivated and detail-oriented web developer based in India.
+        I love bringing designs to life in the browser with pixel-perfect precision and responsive design.
+      </p>
+      <p class="text-gray-600 leading-relaxed mb-6">
+        With experience in both frontend and backend technologies like <strong>HTML, CSS, JavaScript, PHP</strong>, and a passion for learning modern tools,
+        I'm constantly evolving as a developer to stay ahead of the curve.
+      </p>
+
+      <!-- Tech Stack Box -->
+      <div class="bg-white p-4 rounded-lg shadow-lg text-sm text-left">
+        <h4 class="text-md font-semibold mb-2 text-gray-800">Tech Stack I Use:</h4>
+        <ul class="grid grid-cols-2 gap-x-4 text-gray-700 list-disc list-inside">
+          <li>HTML5 & CSS3</li>
+          <li>Tailwind CSS</li>
+          <li>JavaScript & jQuery</li>
+          <li>PHP & MySQL</li>
+          <li>Responsive Design</li>
+          <li>Version Control (Git)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="py-16 px-4 bg-white">
+  <div class="container mx-auto text-center">
+    <h3 class="text-2xl font-semibold mb-10">My Skills</h3>
+    <div class="max-w-2xl mx-auto space-y-6 text-left">
+      
+      <!-- HTML -->
+      <div>
+        <div class="flex justify-between mb-1">
+          <span class="text-gray-800 font-medium">HTML</span>
+          <span class="text-sm text-gray-500">95%</span>
+        </div>
+        <div class="w-full bg-gray-200 rounded-full h-4">
+          <div class="bg-blue-600 h-4 rounded-full" style="width: 95%"></div>
+        </div>
+      </div>
+
+      <!-- CSS -->
+      <div>
+        <div class="flex justify-between mb-1">
+          <span class="text-gray-800 font-medium">CSS</span>
+          <span class="text-sm text-gray-500">90%</span>
+        </div>
+        <div class="w-full bg-gray-200 rounded-full h-4">
+          <div class="bg-green-500 h-4 rounded-full" style="width: 90%"></div>
+        </div>
+      </div>
+
+      <!-- JavaScript -->
+      <div>
+        <div class="flex justify-between mb-1">
+          <span class="text-gray-800 font-medium">JavaScript</span>
+          <span class="text-sm text-gray-500">80%</span>
+        </div>
+        <div class="w-full bg-gray-200 rounded-full h-4">
+          <div class="bg-yellow-400 h-4 rounded-full" style="width: 80%"></div>
+        </div>
+      </div>
+
+      <!-- PHP -->
+      <div>
+        <div class="flex justify-between mb-1">
+          <span class="text-gray-800 font-medium">PHP</span>
+          <span class="text-sm text-gray-500">85%</span>
+        </div>
+        <div class="w-full bg-gray-200 rounded-full h-4">
+          <div class="bg-purple-500 h-4 rounded-full" style="width: 85%"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Projects Section -->
+<section id="projects" class="py-16 px-4 bg-gray-100">
+  <div class="container mx-auto text-center">
+    <h3 class="text-2xl font-semibold mb-10">Projects</h3>
+
+    <div class="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <!-- Project 1 -->
+        <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition">
+        <h4 class="text-xl font-bold mb-2">Netflix Clone</h4>
+        <p class="text-gray-600 mb-3">
+            A simple and responsive Netflix UI clone built using HTML, CSS, and basic JavaScript as part of a Devtown online workshop. Includes banners, thumbnails, and modern layout styling.
+        </p>
+        <a href="https://68763175021ae6337ab712ef--websiteofnetfli.netlify.app/" class="text-blue-600 hover:underline text-sm font-medium">View Project</a>
+        </div>
+          <!-- Project 2 -->
+        <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition">
+        <h4 class="text-xl font-bold mb-2">Beautinest</h4>
+        <p class="text-gray-600 mb-3">
+            A modern and responsive makeup and beauty website built using HTML, CSS, and JavaScript. Features a clean design with product listings and smooth navigation.
+        </p>
+        <a href="https://beautinestmakeupwensite.netlify.app/" class="text-blue-600 hover:underline text-sm font-medium">View Project</a>
+        </div>
+
+
+      <!-- Project 3 -->
+      <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition">
+        <h4 class="text-xl font-bold mb-2">Readlify</h4>
+        <p class="text-gray-600 mb-3">Responsive book store website with admin panel, CRUD functionality, and login system using PHP and MySQL.</p>
+        <a href="https://687632dc021ae635c1b713be--readlifybookstorewebsite.netlify.app/" class="text-blue-600 hover:underline text-sm font-medium">View Project</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+  <section id="contact" class="py-16 px-4">
+    <div class="container mx-auto text-center">
+      <h3 class="text-2xl font-semibold mb-6">Contact Me</h3>
+      <p>Email: <a href="mailto:lumbhanijanvi59@gmail.com" class="text-blue-600">lumbhanijanvi59@gmail.com</a></p>
+      <p>Linkdln : <a href="https://www.linkedin.com/in/janvi-lumbhani-1580ab2a9/" class="text-blue-600">Lumbhani Janvi</a></p>
+      <p>GitHub : <a href="https://github.com/CodeWithJanvi" class="text-blue-600">CodeWithJanvi</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white py-6 text-center text-sm text-gray-500">
+    &copy; 2025 Janvi Lumbhani. All rights reserved.
+  </footer>
+
+</body>
+</html>
